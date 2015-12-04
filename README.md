@@ -29,7 +29,7 @@
 
 所有网页对应的图片等资源都放到了同名文件夹中。
 
-这是Inde.html索引文件：
+这是Inde下.html索引文件：
 
 <img src="https://github.com/lanbing510/CSDNBlogBackup/blob/master/screenshots/index.png" width="100%" height="100%">
 
@@ -43,7 +43,7 @@
 
 1 python；
 
-2 chilkat的python包。
+2 python的chilkat库。
 
 ## 使用说明
 
