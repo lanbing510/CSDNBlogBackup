@@ -23,21 +23,21 @@
 利用整个脚本已经把自己的博客做了完整备份，一些截图如下：
 
 
-这是下载完成后文件夹里的部分内容：
+这是下载完成后文件夹里的部分内容，所有网页对应的图片等资源都放到了同名文件夹中。
 
 <img src="https://github.com/lanbing510/CSDNBlogBackup/blob/master/screenshots/downloaded.jpg" width="100%" height="100%">
 
-所有网页对应的图片等资源都放到了同名文件夹中。
 
 这是Inde下.html索引文件：
 
 <img src="https://github.com/lanbing510/CSDNBlogBackup/blob/master/screenshots/index.png" width="100%" height="100%">
 
-这是部分博客内容的展示：
+
+这是部分博客内容的展示，其对图片和公式都能非常好的支持，即便公式是用mathjax写的（因为下载了网页需要的所有资源，包括js）。
 
 <img src="https://github.com/lanbing510/CSDNBlogBackup/blob/master/screenshots/blog.png" width="100%" height="100%">
 
-可以看到其对图片和公式都能非常好的支持，即便公式是用mathjax写的（因为下载了网页需要的所有资源，包括js）。
+
 
 ## 运行环境
 
@@ -51,5 +51,5 @@
 
 ## 注
 
-可以自己各种div做各种其他博客的备份。Enjoy It!
+可以自己各种DIY做各种其他博客的备份。Enjoy It!
 
