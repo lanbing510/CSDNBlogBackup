@@ -2,7 +2,7 @@
 """
 Created on Thu Dec 03 15:06:27 2015
 
-@author: Administrator
+@author: 冰蓝
 """
 import re
 import os
@@ -25,9 +25,7 @@ head_string="""
   </style>
 </head>
 <body>
-
 """
-
 tail_string="""
 </body>
 </html>
@@ -146,10 +144,10 @@ def generateIndex(user_name='lanbing510'):
 if __name__=='__main__':
     print "Please Input The Username Of Your CSDN Blog"
     user_name=raw_input()
-    print "Start Extract  Blog List..."
+    print "Start Extracting  Blog List..."
     extractBlogLists()
-    print "Start Download Blog List..."
+    print "Start Downloading Blog List..."
     downloadBlogLists()
-    print "Generate Index.html..."
+    print "Start Generating Index.html..."
     generateIndex()
     print "Done"
