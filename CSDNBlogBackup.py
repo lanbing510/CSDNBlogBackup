@@ -35,8 +35,9 @@ iter_count=0
 
 
 def extractBlogLists(user_name='lanbing510',loop_times=1000):
+    url="http://blog.csdn.net/%s/" % user_name
     spider=chilkat.CkSpider()
-    spider.Initialize("http://blog.csdn.net/lanbing510/")
+    spider.Initialize(url)
     pattern=user_name+'/article/details'
     file_path='URList-'+user_name+'.txt'
     f=open(file_path,'w')
