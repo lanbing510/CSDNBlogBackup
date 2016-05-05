@@ -146,9 +146,9 @@ if __name__=='__main__':
     print "Please Input The Username Of Your CSDN Blog"
     user_name=raw_input()
     print "Start Extracting  Blog List..."
-    extractBlogLists()
+    extractBlogLists(user_name)
     print "Start Downloading Blog List..."
-    downloadBlogLists()
+    downloadBlogLists(user_name)
     print "Start Generating Index.html..."
-    generateIndex()
+    generateIndex(user_name)
     print "Done"
